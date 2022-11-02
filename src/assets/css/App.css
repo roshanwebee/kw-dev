@@ -89,27 +89,6 @@ ul.list-none {
 .title-wrap .title {
   margin-bottom: 10px;
 }
-.title-style {
-  position: relative;
-}
-.title-style span {
-  z-index: 9;
-  position: relative;
-  background-color: #fff;
-  padding: 0 10px;
-}
-.title-style:before {
-  content: "";
-  width: 60%;
-  height: 2px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #f83890;
-}
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5 {
   font-weight: 500;
@@ -1634,4 +1613,4 @@ div.dataTables_scrollFoot > .dataTables_scrollFootInner > table {
   border-color: #eee;
 }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=App.css.map */

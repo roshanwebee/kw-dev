@@ -24,10 +24,10 @@ export default function Teams(props) {
                     </div>
                     {/* Users */}
                     <Card className="main-body-card">
-                        <Card.Body>
+                        <Card.Body> 
                             <Row>
                                 <Col md="4">
-                                    <h4 className="text-center title-style"><span>Town Hall</span></h4>
+                                    <h4 className="title-style"><span>Town Hall</span></h4>
                                     <Card className="card-style1">
                                         <Card.Body>
                                             <div className="mb-3"><img className="img-fluid img-townhall-logo" src={require("../assets/images/team/town-hall-logo.png")} alt="Town Hall Logo" /></div>
@@ -47,7 +47,7 @@ export default function Teams(props) {
                                 <Col md="8">
                                     <Row>
                                         <Col md="12">
-                                            <h4 className="text-center title-style"><span>My Teams</span></h4>
+                                            <h4 className="title-style"><span>My Teams</span></h4>
                                         </Col>
                                         <Team />
                                     </Row>

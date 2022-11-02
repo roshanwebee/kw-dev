@@ -77,27 +77,6 @@ ul {
             margin-bottom: $spacing_xs;
         }
     }
-    &-style {
-        position: relative;
-        span {
-            z-index: 9;
-            position: relative;
-            background-color: $white;
-            padding: 0 $spacing_xs;
-        }
-        &:before {
-            content: "";
-            width: 60%;
-            height: 2px;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            background-color: $brand;
-        }
-    }
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5 {
