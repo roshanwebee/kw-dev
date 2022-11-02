@@ -49,6 +49,18 @@ function TodoList() {
         {
             text: "Build really cool todo app",
             isCompleted: false
+        },
+        {
+            text: "Build really cool todo app",
+            isCompleted: false
+        },
+        {
+            text: "Build really cool todo app",
+            isCompleted: false
+        },
+        {
+            text: "Build really cool todo app",
+            isCompleted: false
         }
     ]);
 

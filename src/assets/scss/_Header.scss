@@ -9,7 +9,7 @@
         .logo {
             width: 300px;
             max-width: 100%;
-            padding: $spacing_sm;
+            padding: $spacing_xs;
             @include flex_center;
             span:not(:last-child) {
                 border-right: 1px solid $grey_xd;

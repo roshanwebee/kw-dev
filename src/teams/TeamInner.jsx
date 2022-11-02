@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Notice from './components/Notice';
 import TodoList from './components/TodoList';
+import AddIcon from '@mui/icons-material/Add';
 
 export default function TeamInner(props) {
     return (
@@ -19,7 +20,7 @@ export default function TeamInner(props) {
                                 <h3 className="main-body-header-title mb-0">Tech Team</h3>
                             </Col>
                             <Col className="text-end">
-                                <Button>Add Team</Button>
+                                <Button><AddIcon /> Add Team</Button>
                             </Col>
                         </Row>
                     </div>
@@ -28,11 +29,9 @@ export default function TeamInner(props) {
                         <Col md="6">
                             <Card className="main-body-card card-style2">
                                 <Card.Body>
-                                    <div className="title-wrap card-title-wrap">
-                                        <Card.Title className="mb-0">Notice Board</Card.Title>
-                                    </div>
+                                    <Card.Title>Notice Board</Card.Title>
                                     <div className="card-scroll scrollbar scrollbar-y">
-                                        <Notice />
+                                        <div className="notice-list"><Notice /></div>
                                     </div>
                                 </Card.Body>
                             </Card>
