@@ -81,7 +81,7 @@
                         border-radius: $border_radius;
                         background: $brand;
                         cursor: pointer;
-                        box-shadow: 0 0 0 rgb(247 45 102 / 90%);
+                        box-shadow: 0 3px 15px rgb(247, 45, 0.9);
                         animation: pulse 2s infinite;
                     }
                 }
